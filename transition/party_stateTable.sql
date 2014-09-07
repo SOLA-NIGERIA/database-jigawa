@@ -55,7 +55,7 @@ INSERT INTO state_type (code, display_value, status, description) VALUES ('11', 
 INSERT INTO state_type (code, display_value, status, description) VALUES ('12', 'Ekiti', 'c', NULL);
 INSERT INTO state_type (code, display_value, status, description) VALUES ('13', 'Gombe', 'c', NULL);
 INSERT INTO state_type (code, display_value, status, description) VALUES ('14', 'Imo', 'c', NULL);
-INSERT INTO state_type (code, display_value, status, description) VALUES ('15', 'Jigawa', 'c', NULL);
+-- INSERT INTO state_type (code, display_value, status, description) VALUES ('15', 'Jigawa', 'c', NULL);
 INSERT INTO state_type (code, display_value, status, description) VALUES ('16', 'Kaduna', 'c', NULL);
 INSERT INTO state_type (code, display_value, status, description) VALUES ('17', 'Kano', 'c', NULL);
 INSERT INTO state_type (code, display_value, status, description) VALUES ('18', 'Katsina', 'c', NULL);
