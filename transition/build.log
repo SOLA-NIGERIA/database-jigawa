@@ -1,0 +1,125 @@
+Starting Build at 16:08:42.28 
+psql:../transition/01_altermetadatalayer_table.sql:4: ERROR:  multiple primary keys for table "config_map_layer_metadata" are not allowed
+DELETE 1
+DELETE 1
+INSERT 0 1
+INSERT 0 1
+psql:../transition/03_1406c_48.sql:3: ERROR:  duplicate key value violates unique constraint "setting_pkey"
+DETAIL:  Key (name)=(scale-range) already exists.
+INSERT 0 0
+ALTER TABLE
+ALTER TABLE
+UPDATE 0
+UPDATE 0
+CREATE FUNCTION
+ALTER FUNCTION
+COMMENT
+psql:../transition/05_1407a_50.sql:1: ERROR:  duplicate key value violates unique constraint "setting_pkey"
+DETAIL:  Key (name)=(title-plan-gridcut-srid) already exists.
+psql:../transition/05_1407a_50.sql:2: ERROR:  duplicate key value violates unique constraint "setting_pkey"
+DETAIL:  Key (name)=(surveyor) already exists.
+psql:../transition/05_1407a_50.sql:3: ERROR:  duplicate key value violates unique constraint "setting_pkey"
+DETAIL:  Key (name)=(surveyorRank) already exists.
+psql:../transition/05_1407a_50.sql:16: ERROR:  duplicate key value violates unique constraint "query_pkey"
+DETAIL:  Key (name)=(SpatialResult.getParcelsForParcelPlan) already exists.
+psql:../transition/05_1407a_50.sql:19: ERROR:  duplicate key value violates unique constraint "config_map_layer_pkey"
+DETAIL:  Key (name)=(parcels-for-parcel-plan) already exists.
+psql:../transition/05_1407a_50.sql:21: ERROR:  duplicate key value violates unique constraint "config_map_layer_metadata_pkey"
+DETAIL:  Key (name_layer, name)=(parcels-for-parcel-plan, in-plan-production) already exists.
+psql:../transition/05_1407a_50.sql:22: ERROR:  duplicate key value violates unique constraint "config_map_layer_metadata_pkey"
+DETAIL:  Key (name_layer, name)=(parcels-for-parcel-plan, in-plan-sketch-production) already exists.
+psql:../transition/05_1407a_50.sql:30: ERROR:  duplicate key value violates unique constraint "query_pkey"
+DETAIL:  Key (name)=(SpatialResult.getRoadCenterlinesForParcelPlan) already exists.
+psql:../transition/05_1407a_50.sql:33: ERROR:  duplicate key value violates unique constraint "config_map_layer_pkey"
+DETAIL:  Key (name)=(road-centerlines-for-parcel-plan) already exists.
+psql:../transition/05_1407a_50.sql:35: ERROR:  duplicate key value violates unique constraint "config_map_layer_metadata_pkey"
+DETAIL:  Key (name_layer, name)=(road-centerlines-for-parcel-plan, in-plan-production) already exists.
+psql:../transition/05_1407a_50.sql:38: ERROR:  duplicate key value violates unique constraint "config_map_layer_metadata_pkey"
+DETAIL:  Key (name_layer, name)=(orthophoto, resolution) already exists.
+psql:../transition/05_1407a_50.sql:39: ERROR:  duplicate key value violates unique constraint "config_map_layer_metadata_pkey"
+DETAIL:  Key (name_layer, name)=(orthophoto, data-source) already exists.
+psql:../transition/05_1407a_50.sql:40: ERROR:  duplicate key value violates unique constraint "config_map_layer_metadata_pkey"
+DETAIL:  Key (name_layer, name)=(orthophoto, in-plan-sketch-production) already exists.
+UPDATE 1
+UPDATE 15
+psql:../transition/05_1407a_50.sql:111: ERROR:  cannot change data type of view column "sheetnr" from character varying(100) to text
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+psql:../transition/06_1407a_51.sql:1: ERROR:  duplicate key value violates unique constraint "config_map_layer_metadata_pkey"
+DETAIL:  Key (name_layer, name)=(orthophoto, sheet-number) already exists.
+UPDATE 1
+DROP VIEW
+CREATE VIEW
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+psql:../transition/08_1407b_50.sql:3: ERROR:  duplicate key value violates unique constraint "setting_pkey"
+DETAIL:  Key (name)=(title-plan-main-sketch-scale-ratio) already exists.
+INSERT 0 0
+CREATE VIEW
+ALTER TABLE
+CREATE FUNCTION
+ALTER FUNCTION
+CREATE FUNCTION
+ALTER FUNCTION
+psql:../transition/12_ApplicationNote.sql:1: ERROR:  duplicate key value violates unique constraint "administrative_source_type_pkey"
+DETAIL:  Key (code)=(note) already exists.
+UPDATE 1
+DROP TABLE
+psql:../transition/14_party_stateTable.sql:13: NOTICE:  CREATE TABLE / PRIMARY KEY will create implicit index "state_type_pkey" for table "state_type"
+CREATE TABLE
+ALTER TABLE
+COMMENT
+SET
+SET
+SET
+SET
+SET
+SET
+SET
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+psql:../transition/15_setting_state.sql:1: ERROR:  duplicate key value violates unique constraint "setting_pkey"
+DETAIL:  Key (name)=(state) already exists.
+psql:../transition/15_setting_state.sql:2: ERROR:  duplicate key value violates unique constraint "setting_pkey"
+DETAIL:  Key (name)=(featureFloatFront) already exists.
+psql:../transition/15_setting_state.sql:3: ERROR:  duplicate key value violates unique constraint "setting_pkey"
+DETAIL:  Key (name)=(featureFloatBack) already exists.
+psql:../transition/15_setting_state.sql:4: ERROR:  duplicate key value violates unique constraint "setting_pkey"
+DETAIL:  Key (name)=(featureFront) already exists.
+psql:../transition/15_setting_state.sql:5: ERROR:  duplicate key value violates unique constraint "setting_pkey"
+DETAIL:  Key (name)=(featureBack) already exists.
+INSERT 0 0
+Finished at 16:09:48.49 
